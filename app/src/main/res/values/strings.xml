@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Simple Pomodoro App</string>
+    <string name="simple_app_name">Pomodoro</string>
+    <string name="author">Jookie262</string>
 </resources>
