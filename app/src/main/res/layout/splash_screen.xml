@@ -40,6 +40,7 @@
         android:text="Pomodoro"
         android:textColor="@color/red"
         android:textSize="40sp"
+        android:letterSpacing=".01 "
         app:stroke_width="8"
         app:left_space="0"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,18 +49,19 @@
 
     <com.example.simplepomodoroapp.BorderTextView
         android:id="@+id/author"
-        android:layout_width="wrap_content"
-        android:layout_height="35dp"
+        android:layout_width="135dp"
+        android:layout_height="39dp"
+        android:letterSpacing=".01"
         android:text="@string/author"
         android:textColor="@color/yellow"
         android:textSize="20sp"
-        app:left_space="0"
         app:fontFamily="@font/roboto_black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:stroke_width="8"/>
+        app:left_space="0"
+        app:stroke_width="8" />
 
     <ProgressBar
         android:id="@+id/progressBar"

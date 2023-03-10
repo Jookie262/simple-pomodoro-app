@@ -76,7 +76,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void resetTimer() {
-        pauseTimer();
+        if(mTimerRunning){
+            pauseTimer();
+        }
+
         mTimeLeftInMillis = START_TIME_IN_MILLIS;
         updateCountDownText();
     }
