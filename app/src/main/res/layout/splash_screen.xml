@@ -40,6 +40,8 @@
         android:text="Pomodoro"
         android:textColor="@color/red"
         android:textSize="40sp"
+        app:stroke_width="8"
+        app:left_space="0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
@@ -51,11 +53,13 @@
         android:text="@string/author"
         android:textColor="@color/yellow"
         android:textSize="20sp"
+        app:left_space="0"
         app:fontFamily="@font/roboto_black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:stroke_width="8"/>
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -84,6 +88,5 @@
             android:layout_weight="1"
             app:srcCompat="@drawable/tree_house" />
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

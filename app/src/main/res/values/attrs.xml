@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BorderTextView">
+        <attr name="stroke_width" format="string"/>
+        <attr name="left_space" format="string"/>
+    </declare-styleable>
+</resources>
