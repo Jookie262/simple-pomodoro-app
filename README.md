@@ -1,7 +1,7 @@
-# Simple Pomodoro App
+# Simple Pomodoro App ⏲️
 A Task Performance in Second Semester Prelim in Mobile Systems and Technologies. I designed a basic pomodoro application with a 25-minute timer and an Adventure Time theme. 
 
-## Screen Shot
+## Screen Shot 📷
 <p float="left">
     <img src="screenshot/splashscreen.png" width="280"/>
     <img src="screenshot/mainscreen.png" width="280"/>
