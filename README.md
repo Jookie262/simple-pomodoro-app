@@ -3,8 +3,8 @@ A Task Performance in Second Semester Prelim in Mobile Systems and Technologies.
 
 ## Screen 
 <p float="left">
-    <img src="screenshot/splashscreen.png" width="350"/>
-    <img src="screenshot/mainscreen.png" width="350"/>
+    <img src="screenshot/splashscreen.png" width="300"/>
+    <img src="screenshot/mainscreen.png" width="300"/>
 </p>
 
 ## Contribution 🔥
